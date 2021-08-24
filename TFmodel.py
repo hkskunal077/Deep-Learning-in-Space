@@ -20,6 +20,8 @@ def to_tf_records_example(label):
     def _bytes_feature(values):
         return tf.train.Feature(bytes_list=tf.train.BytesList(value=values))
 
+    
+    
     def _float_feature(values):
         return tf.train.Feature(float_list=tf.train.FloatList(value=values))
 
