@@ -1,5 +1,6 @@
 import multiprocessing as mp
 import tensorflow as tf
+
 from skimage.io import imread
 
 CPU_CORES = mp.cpu_count()
